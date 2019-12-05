@@ -1,0 +1,253 @@
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-Thin.ttf");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-ThinItalic.ttf");
+	font-weight: 100;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-Light.ttf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-LightItalic.ttf");
+	font-weight: 300;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-RegularItalic.ttf");
+	font-weight: 400;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-Medium.ttf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-MediumItalic.ttf");
+	font-weight: 500;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-Bold.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: webfont;
+	src: url("fonts/Roboto-BoldItalic.ttf");
+	font-weight: 700;
+	font-style: oblique;
+}
+
+* {
+	background-color: none;
+	background: none;
+	color: inherit;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	line-height: inherit;
+}
+
+html {
+	background-color: white;
+	color: black;
+	font-family: webfont;
+	font-weight: 400;
+	font-size: 13pt;
+	line-height: 150%;
+}
+
+body {
+	background-color: white;
+	font-weight: 300;
+}
+
+header {
+	background-color: #F8F8E8;
+	text-align: center;
+}
+
+header nav {
+	background-color: black;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: underline;
+	min-width: 80px;
+	padding: 5px;
+	color: white;
+}
+
+header nav a:active {
+	text-decoration: none;
+}
+
+header nav a:hover {
+	background-color: #DD0000;
+	color: white;
+	text-decoration: none;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 150%;
+	font-weight: 700;
+	padding: 5px;
+}
+
+#language {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+a {
+	color: blue;
+	font-weight: bolder;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	text-decoration: underline;
+}
+
+article {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	min-height: 75vh;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px dashed black;
+}
+
+article h1 {
+	font-weight: 700;
+	font-size: 150%;
+	line-height: 150%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed black;
+}
+
+article h2 {
+	font-weight: 700;
+	font-size: 125%;
+	line-height: 125%;
+	margin-top: 8px;
+}
+
+article p {
+	margin-bottom: 5px;
+}
+
+article nav {
+	display: block;
+	margin-top: 1ch;
+	margin-bottom: 1ch;
+}
+
+article nav a {
+	display: inline-block;
+	margin-right: 2ch;
+}
+
+article u {
+	text-decoration: underline;
+}
+
+article b {
+	font-weight: bolder;
+}
+
+article ul {
+	list-style: none;
+	padding-left: 2ex;
+	margin-bottom: 2ex;
+}
+
+article ul li {
+	text-indent: -2ch;
+}
+
+article ul li:before {
+	content: "- ";
+	font-weight: 500;
+}
+
+article ul li span {
+	color: gray;
+	margin-left: 1ch;
+}
+
+article figcaption {
+	font-size: 50%;
+	color: gray;
+	line-height: 50%;
+}
+
+table {
+	width: 100%;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+tr, th, td {
+	padding: 0px;
+	margin: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table tr:nth-child(1) {
+	background-color: black;
+	color: white;
+	font-weight: 700;
+}
+
+footer {
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	background-color: black;
+	min-height: 100px;
+	padding: 10px;
+}
